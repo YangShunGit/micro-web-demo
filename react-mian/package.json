@@ -1,0 +1,43 @@
+{
+    "name": "react-mian",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "ys-webpack-config": "^1.0.29",
+        "qiankun": "^2.6.3"
+    },
+    "dependencies": {
+        "ys-react-config": "^1.0.3"
+    },
+    "scripts": {
+        "start": "yang start",
+        "start:open": "yang start --open",
+        "build": "yang build"
+    },
+    "engines": {
+        "node": ">=10.13.0"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react",
+            "@babel/preset-typescript"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
