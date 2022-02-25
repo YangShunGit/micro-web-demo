@@ -7,10 +7,12 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "ys-webpack-config": "^1.0.29",
-        "qiankun": "^2.6.3"
+        "qiankun": "^2.6.3",
+        "ys-webpack-config": "^1.0.29"
     },
     "dependencies": {
+        "@ant-design/icons": "^4.7.0",
+        "antd": "^4.18.8",
         "ys-react-config": "^1.0.3"
     },
     "scripts": {

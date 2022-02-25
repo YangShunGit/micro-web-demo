@@ -29,6 +29,7 @@ export default function App() {
 function Layout() {
   return (
     <div>
+      这是一个子应用
       <nav>
         <ul>
           <li>

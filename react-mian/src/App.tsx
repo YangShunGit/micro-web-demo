@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import Routes from './routes';
 import store from './store/index';
 import { Provider } from 'react-redux';
+import 'antd/dist/antd.css';
 
 export default function render(
   routerBasename = '/', 

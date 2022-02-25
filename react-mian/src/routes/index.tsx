@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Outlet, Link, useRoutes, useParams } from "react-router-dom";
 import Counter from '../pages/counter';
+import Layout from '../pages/layout';
 
 export default function App() {
   let routes = [
@@ -24,30 +25,6 @@ export default function App() {
 
   let element = useRoutes(routes);
   return element;
-}
-
-function Layout() {
-  return (
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/courses">Courses</Link>
-          </li>
-          <li>
-            <Link to="/nothing-here">Nothing Here</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <hr />
-
-      <Outlet />
-    </div>
-  );
 }
 
 function Courses() {
